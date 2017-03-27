@@ -1,13 +1,12 @@
 import {expect} from 'chai';
 import {jsdom} from 'jsdom';
-import {fs} from 'fs';
+import {fs} from 'file-system';
 
 describe('Our first test', () => {
   it('should pass', () => {
     expect(true).to.equal(true);
   });
 });
-
 
 describe('index.html', () => {
   it('should say hello', (done) => {
