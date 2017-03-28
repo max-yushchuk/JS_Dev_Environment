@@ -8,7 +8,7 @@
 
 var jsf = require('json-schema-faker');
 var mockDataSchema = require('./mockDataSchema');
-var fs = require('fs');
+var fs = require('file-system');
 
 var json = JSON.stringify(jsf(mockDataSchema));
 

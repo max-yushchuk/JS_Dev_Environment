@@ -32,3 +32,5 @@ export const schema = {
   },
   required: ['users']
 };
+
+module.exports = schema;
